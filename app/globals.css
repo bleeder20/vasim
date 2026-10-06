@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --ink: 247 246 242;
+  --paper: 17 17 17;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: rgb(var(--paper));
+}
+
+body {
+  margin: 0;
+  background: rgb(var(--paper));
+  color: rgb(var(--ink));
+  font-family: var(--font-manrope), sans-serif;
+}
+
+.portfolio[data-theme="light"] {
+  color-scheme: light;
+  --ink: 17 17 17;
+  --paper: 247 246 242;
+}
+
+.portfolio[data-theme="dark"] .bg-ink {
+  background-color: #242424;
+}
+
+.portfolio[data-theme="dark"] .hover\:bg-ink:hover {
+  background-color: #242424;
+}
+
+::selection {
+  background: #c7ff4a;
+  color: #111111;
+}
+
+@layer components {
+  .section-shell {
+    @apply mx-auto w-full max-w-[1440px] px-5 sm:px-8 lg:px-12;
+  }
+
+  .eyebrow {
+    @apply font-display text-xs font-semibold uppercase tracking-[0.2em];
+  }
+
+  .outline-text {
+    -webkit-text-stroke: 1.5px rgb(var(--ink));
+    text-stroke: 1.5px rgb(var(--ink));
+  }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  animation: marquee 24s linear infinite;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .marquee-track { animation: none; }
+}

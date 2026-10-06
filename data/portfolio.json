@@ -1,0 +1,75 @@
+{
+  "name": "Vasim",
+  "role": "Product Designer & Frontend Developer",
+  "tagline": "I turn complex ideas into simple, memorable digital experiences.",
+  "location": "Available for remote & hybrid projects",
+  "email": "hello@vasim.dev",
+  "github": "https://github.com/",
+  "linkedin": "https://linkedin.com/",
+  "dribbble": "https://dribbble.com/",
+  "availability": "Open to select projects for Q4 2026",
+  "summary": "I design thoughtful digital products and build them with clean, scalable code. My work blends strategy, visual craft, and a sharp eye for interaction.",
+  "stats": [
+    { "value": "6+", "label": "Years creating" },
+    { "value": "28", "label": "Projects shipped" },
+    { "value": "12", "label": "Countries reached" }
+  ],
+  "skills": [
+    "Product Strategy",
+    "UX / UI Design",
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Motion Design",
+    "Figma"
+  ],
+  "projects": [
+    {
+      "title": "Northstar Finance",
+      "category": "Product Design",
+      "year": "2026",
+      "description": "A calm, intelligent financial dashboard that helps ambitious teams make confident decisions.",
+      "tags": ["Strategy", "UX/UI", "Design System"],
+      "accent": "lime",
+      "number": "01"
+    },
+    {
+      "title": "Luma Studio",
+      "category": "Web Development",
+      "year": "2025",
+      "description": "A cinematic digital home for an independent creative studio built for speed and storytelling.",
+      "tags": ["Next.js", "Motion", "CMS"],
+      "accent": "violet",
+      "number": "02"
+    },
+    {
+      "title": "Morrow Health",
+      "category": "Brand & Product",
+      "year": "2025",
+      "description": "A warm, human identity and mobile experience for a new kind of everyday wellness platform.",
+      "tags": ["Branding", "Product", "Figma"],
+      "accent": "orange",
+      "number": "03"
+    },
+    {
+      "title": "Atlas Workspace",
+      "category": "Web Development",
+      "year": "2024",
+      "description": "A collaborative workspace experience that makes distributed teams feel close and in sync.",
+      "tags": ["React", "TypeScript", "Realtime"],
+      "accent": "blue",
+      "number": "04"
+    }
+  ],
+  "experience": [
+    { "period": "2023 — Now", "role": "Senior Product Designer", "company": "Independent", "description": "Partnering with founders and product teams to shape brands, products, and digital experiences." },
+    { "period": "2021 — 2023", "role": "Product Designer", "company": "Northline Studio", "description": "Led end-to-end product design for a portfolio of technology and lifestyle clients." },
+    { "period": "2019 — 2021", "role": "Visual Designer", "company": "Form & Function", "description": "Created visual identities, campaign systems, and digital experiences across multiple industries." }
+  ],
+  "services": [
+    { "number": "01", "title": "Product Design", "description": "From first sketch to polished interface, I help turn user needs into clear, useful products." },
+    { "number": "02", "title": "Web Development", "description": "I build responsive, accessible websites with robust code and thoughtful motion." },
+    { "number": "03", "title": "Creative Direction", "description": "I shape the visual language, story, and overall direction of ambitious digital brands." }
+  ]
+}
